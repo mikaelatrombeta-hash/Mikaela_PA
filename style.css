@@ -11,5 +11,10 @@ body{
     /*configuração principal da página*/
     background: #090d16;
     color:#f8fafc;
-    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
 }
