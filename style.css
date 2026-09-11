@@ -45,7 +45,7 @@ body ::after {
 }
 
 .card {
-    /*estila o cartão principal */
+    /*estiliza o cartão principal */
     position: relative;
     z-index: 1;
     backdrop: rgba(255, 255, 255, 0.04);
@@ -59,4 +59,10 @@ body ::after {
     text-align: center;
     box-shadow: 0 20px 40px rbga(0, 0, 0, 0.5);
     transition: tranform 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+    /*efeito ao passar o mouse no cartão */
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.25);
 }
