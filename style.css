@@ -113,4 +113,7 @@ body ::after {
 .info-card:hover{
     /*Eleva o cartão quando o mouse passa sobre ele*/
     transform: translateY(-5px);
+
+    /*Altera a cor da borda para vermelho*/
+    border-color: #dc2626;
 }
