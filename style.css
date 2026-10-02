@@ -99,4 +99,8 @@ body ::after {
 
     /*Arredonda os cantos */
     border-radius: 18px;
+
+    /*Define o espaçamento interno*/
+    padding: 30px;
+    
 }
