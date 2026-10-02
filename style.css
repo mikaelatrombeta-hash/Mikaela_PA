@@ -105,4 +105,7 @@ body ::after {
 
     /*Alinha o conteúdo à esquerda*/
     text-align: left;
+
+    /*Adiciona uma transição suave*/
+    transition: 0.3s ease;
 }
