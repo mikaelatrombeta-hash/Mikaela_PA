@@ -102,5 +102,7 @@ body ::after {
 
     /*Define o espaçamento interno*/
     padding: 30px;
-    
+
+    /*Alinha o conteúdo à esquerda*/
+    text-align: left;
 }
