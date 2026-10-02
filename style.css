@@ -88,6 +88,6 @@ body ::after {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
-    /* Define o espaço entre os cartões*/
+    /*Define o espaço entre os cartões */
     gap: 20px;
 }
