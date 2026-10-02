@@ -66,3 +66,12 @@ body ::after {
     transform: translateY(-5px);
     border-color: rgba(255, 255, 255, 0.25);
 }
+
+.conteudo{
+    /*Define o tamanho e a posição do card */
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 100px;
+    text-align: center;
+}
