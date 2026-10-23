@@ -67,7 +67,6 @@ body ::after {
     border-color: rgba(255, 255, 255, 0.25);
 }
 
-<<<<<<< HEAD
 .conteudo {
     position: relative;
     z-index: 1;
@@ -121,56 +120,3 @@ body ::after {
     font-size: 1.4rem;
     margin-bottom: 15px;
 }
-
-=======
-.conteudo{
-    /*Define o tamanho e a posição do card */
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    max-width: 100px;
-    text-align: center;
-}
-
-.conteudo h2{
-    /*Estiliza o título da nova sessão*/
-    font-size: 2rem;
-    color: #fff;
-    margin-bottom: 30px;
-}
-
-.informacoes{
-    /* Organiza os cartões lado a lado */
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
-    /*Define o espaço entre os cartões */
-    gap: 20px;
-}
-
-.info-card{
-    /*Define o fundo e as bordas dos cartões*/
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-
-    /*Arredonda os cantos */
-    border-radius: 18px;
-
-    /*Define o espaçamento interno*/
-    padding: 30px;
-
-    /*Alinha o conteúdo à esquerda*/
-    text-align: left;
-
-    /*Adiciona uma transição suave*/
-    transition: 0.3s ease;
-}
-
-.info-card:hover{
-    /*Eleva o cartão quando o mouse passa sobre ele*/
-    transform: translateY(-5px);
-
-    /*Altera a cor da borda para vermelho*/
-    border-color: #dc2626;
-}
->>>>>>> 529a62ba4bf9d529d342dc99e31f22290d1603cf
