@@ -122,6 +122,11 @@ body ::after {
 }
 
 .info-card p {
-    /* Ajusta o espaçamento entre os parágrafos */
+    /* Ajusta o espaço entre os parágrafos */
     margin-bottom: 12px;
+}
+
+.info-card p:last-child {
+    /* remove o espaço abaixo do último parágrafo */
+    margin-bottom: 0;
 }
