@@ -21,7 +21,7 @@ body{
 
     position: relative;
 
-    /* NOVO: organiza os elementos um abaixo do outro */
+    /* NOVO- organiza os elementos um abaixo do outro */
     flex-direction: column;
 }
 
