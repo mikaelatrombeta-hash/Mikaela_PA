@@ -82,6 +82,21 @@ body ::after {
     border-color: rgba(255, 255, 255, 0.25);
 }
 
+.badge {
+    /* Estiliza a enquete/badge */
+    display:inline-block;
+    background: rgba(220, 38, 38, 0.2);
+    color: #f87171;
+    border: 1px solid rgba(248, 113, 113, 0.3);
+    padding: 6px 16px;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
 .conteudo {
     position: relative;
     z-index: 1;
