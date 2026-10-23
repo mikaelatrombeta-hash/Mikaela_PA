@@ -26,6 +26,9 @@ body{
 
     /* NOVO- cria espaço entre o cartão e a nova seção */
     gap: 60px;
+
+    /* NOVO: adiciona espaçamento nas bordas da página */
+    padding: 80px 20px;
 }
 
 body::before, body::after {
