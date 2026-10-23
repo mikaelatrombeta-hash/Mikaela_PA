@@ -23,6 +23,9 @@ body{
 
     /* NOVO- organiza os elementos um abaixo do outro */
     flex-direction: column;
+
+    /* NOVO- cria espaço entre o cartão e a nova seção */
+    gap: 60px;
 }
 
 body::before, body::after {
